@@ -1,4 +1,4 @@
-**# Rahuldeb5's USACO Prep**
+# Rahuldeb5's USACO Prep
 
 **Updates for contests:**
 
