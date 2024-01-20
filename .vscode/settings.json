@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "xiosbase": "cpp",
+        "algorithm": "cpp",
+        "cstddef": "cpp",
+        "cstdlib": "cpp",
+        "random": "cpp",
+        "utility": "cpp",
+        "locale": "cpp",
+        "xlocale": "cpp",
+        "ios": "cpp",
+        "iosfwd": "cpp",
+        "valarray": "cpp",
+        "complex": "cpp",
+        "string": "cpp",
+        "chrono": "cpp",
+        "limits": "cpp"
+    }
+}
