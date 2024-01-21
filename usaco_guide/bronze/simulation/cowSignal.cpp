@@ -3,10 +3,10 @@ typedef long long ll;
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
+    // ios::sync_with_stdio(0); cin.tie(0);
 
-    // freopen(".in", "r", stdin);
-    // freopen(".out", "w", stdout);
+    freopen("cowsignal.in", "r", stdin);
+    freopen("cowsignal.out", "w", stdout);
 
     int m, n, k; cin >> m >> n >> k;
 
