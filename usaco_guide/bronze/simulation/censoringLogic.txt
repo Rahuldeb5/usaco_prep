@@ -1,0 +1,24 @@
+Initial Logic:
+Go thru each char of the string.
+If substring(i, t.size()) == t, then add substr(0,i) and substr(i+t.size(), s.size()-1-i-t.size()) to a new temp string.
+Assign s to temp string.
+I = I-t.size()
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Actual Logic:
+Let us define censored as the final censored text.
+
+We can iterate through every character of s, appending it to censored.
+However, whenever we append a character we we need to check if censored ends with the censored word.
+If it does, we remove it from censored by taking off the last few characters.
+
+As a demonstration, let's try this on the example case where:
+
+s = whatthemomooofun 
+t = moo 
+
+Our solution will loop through each character of s, appending it to censored until it becomes $\texttt{whatthemomoo}$, when it will cut off the last 3 characters since they equal t. This results in censored becoming whatthemo.
+Right after this, censored becomes whatthemoo as the next letter in $s$ is $o$, so we omit the last 3 characters again and censored becomes whatthe.
+
+After this, the check isn't triggered anymore, so we end up with whatthefun as our final word.
